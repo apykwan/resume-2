@@ -14,4 +14,12 @@ function typeText(text, typingElement, delay) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', runTypingEffect);
+function getCurrentYear() {
+  const curYear =  document.getElementById('cur-year');
+  curYear.textContent = new Date().getFullYear();
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  runTypingEffect();
+  getCurrentYear();
+});
