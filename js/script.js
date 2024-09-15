@@ -1,5 +1,4 @@
 import { skillList } from './data/skillList.js';
-import { sendButton, js_send, js_form } from './sendMail.js';
 
 function runTypingEffect() {
   const text = 'Andy P. Kwan';
@@ -44,11 +43,6 @@ function renderSkillList() {
     rootDiv.appendChild(skillElement);
   });
 }
-
-sendButton.onclick = js_send;
-js_form.addEventListener("submit", function (e) {
-    e.preventDefault();   
-});
 
 document.addEventListener('DOMContentLoaded', function () {
   runTypingEffect();
