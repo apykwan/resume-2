@@ -47,4 +47,8 @@ $container-max-widths: (
   xxl: 1000px,
 ) !default;
 
+// Override Bootstrap tooltip variables
+$tooltip-bg: #cc005f;
+$tooltip-color: #ffffff;
+
 @import '../node_modules/bootstrap/scss/bootstrap';

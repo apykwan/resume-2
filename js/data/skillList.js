@@ -6,7 +6,7 @@
   { icon: "fab fa-js", name: "JavaScript" },
   { icon: "fab fa-react", name: "React.JS / Next.JS" },
   { icon: "fa-solid fa-j", name: "JQuery" },
-  { icon: "fa-solid fa-flask-vial", name: "Jest / Vitest" },
+  { icon: "fa-solid fa-flask-vial", name: "Jest" },
   { icon: "fa-solid fa-t", name: "TypeScript" },
   { icon: "fab fa-node-js", name: "Node.JS" },
   { icon: "fa-brands fa-python", name: "Python" },
@@ -15,7 +15,7 @@
   { icon: "fa-solid fa-database", name: "SQL" },
   { icon: "fa-solid fa-n", name: "Nginx" },
   { icon: "fab fa-docker", name: "Docker" },
-  { icon: "fa-brands fa-github", name: "Github / Action" },
+  { icon: "fa-brands fa-github", name: "Github Action" },
   { icon: "fa-brands fa-aws", name: "AWS" },
   { icon: "fab fa-digital-ocean", name: "DigitalOcean" },
 ];

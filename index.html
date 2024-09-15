@@ -29,7 +29,7 @@
         </p>
         
         <div class="d-flex mt-4">
-          <a href="#about" class="btn btn-outline-primary btn-lg rounded-2 me-3">
+          <a href="#about" class="btn btn-outline-primary btn-lg rounded-2 me-4">
             <div class="d-flex">
               <div class="me-3">
                 <i class="fas fa-chevron-down"></i>
@@ -40,21 +40,43 @@
             </div>
           </a>
           
-          <a href="file/andypkwanResume.docx" class="my-resume btn btn-primary btn-lg text-uppercase rounded-2">
-            <i class="fa-solid fa-download me-2"></i>
+          <a 
+            href="file/andypkwanResume.docx" 
+            class="my-resume btn btn-primary btn-lg text-uppercase rounded-2"
+            data-toggle="tooltip" 
+            data-placement="top" 
+            title="download resume"
+          >
+            <i class="fa-solid fa-download"></i>
             Download CV
           </a>
         </div>
         
         <div class="social d-flex gap-3 position-absolute">
-          <a href="https://www.linkedin.com/in/andy-kwan-9655b064/" target="_blank">
+          <a 
+            href="https://www.linkedin.com/in/andy-kwan-9655b064/" 
+            target="_blank"
+            data-toggle="tooltip" 
+            data-placement="top" 
+            title="my expereince"
+          >
             <i class="fab fa-linkedin fa-3x text-white"></i>
           </a>
-          
-          <a href="https://github.com/apykwan" target="_blank">
+          <a 
+            href="https://github.com/apykwan" 
+            target="_blank"
+            data-toggle="tooltip" 
+            data-placement="top" 
+            title="check out my work"
+          >
             <i class="fab fa-github fa-3x text-white"></i>
           </a>
-          <a href="mailto:apykwan@hotmail.com">
+          <a 
+            href="mailto:apykwan@hotmail.com"
+            data-toggle="tooltip" 
+            data-placement="top" 
+            title="write to me"
+          >
             <i class="fa fa-envelope fa-3x text-white"></i>
           </a>
         </div>
@@ -106,7 +128,7 @@
                 <h5 class="text-transform">
                   <i class="fas fa-calendar text-primary"></i> Expereince:
                 </h5>
-                <p>+5 Years</p>
+                <p>+<span class="my-experience"></span> Years</p>
               </li>
               <li class="list-group-item mb-3">
                 <h5 class="text-transform">
@@ -152,55 +174,7 @@
           <h2 class="mb-4">Check Out My Work</h2>
           <p class="lead">Here is a small sample of my projects.</p>
         </div>
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a href="images/project1.jpg" data-lightbox="images" data-title="Cliboard Landing Page">
-                <img src="images/project1.jpg" alt="" class="img-fluid rounded-3" />
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a href="images/project2.jpg" data-lightbox="images" data-title="Loop Studios Website">
-                <img src="images/project2.jpg" alt="" class="img-fluid rounded-3" />
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a href="images/project3.jpg" data-lightbox="images" data-title="Shortly Website">
-                <img src="images/project3.jpg" alt="" class="img-fluid rounded-3" />
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a href="images/project4.jpg" data-lightbox="images" data-title="Flyo Website">
-                <img src="images/project4.jpg" alt="" class="img-fluid rounded-3" />
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a href="images/project5.jpg" data-lightbox="images" data-title="Bookmark Website">
-                <img src="images/project5.jpg" alt="" class="img-fluid rounded-3" />
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a href="images/project6.jpg" data-lightbox="images" data-title="Grid Layout">
-                <img src="images/project6.jpg" alt="" class="img-fluid rounded-3" />
-              </a>
-            </div>
-          </div>
-        </div>
+        <div id="project-list"></div>
       </div>
     </section>
 
@@ -222,8 +196,8 @@
             <h3 class="fs-3">Design</h3>
             <hr class="w-25 mx-auto" />
             <p class="fs-5">
-              Striving to design mobile-friendly websites that offer a seamless experience, my focus is on creating
-              visually appealing, and highly responsive that adapt perfectly to any screen size.
+              Striving to design mobile-friendly websites that offer a seamless experience, I focus on creating visually appealing,
+              highly responsive designs that adapt to any screen size.
             </p>
           </div>
 
@@ -257,16 +231,44 @@
           Copyright &copy; <span id="cur-year" class="text-primary"></span>
         </p>
         <div class="hstack gap-3">
-          <a class="text-decoration-none" href="#">
+          <a 
+            href="https://www.linkedin.com/in/andy-kwan-9655b064/" 
+            target="_blank"
+            target="_blank"
+            data-toggle="tooltip" 
+            data-placement="top" 
+            title="my expereince"
+          >
             <i class="fab fa-linkedin fa-2x text-white"></i>
           </a>
-          <a class="text-decoration-none" href="#">
-            <i class="fab fa-dribbble fa-2x text-white"></i>
+          <a 
+            href="https://github.com/apykwan" 
+            target="_blank"
+            target="_blank"
+            data-toggle="tooltip" 
+            data-placement="top" 
+            title="check out my work"
+          >
+            <i class="fab fa-github fa-2x text-white"></i>
+          </a>
+          <a 
+            href="mailto:apykwan@hotmail.com"
+            target="_blank"
+            data-toggle="tooltip" 
+            data-placement="top" 
+            title="write to me"
+          >
+            <i class="fa fa-envelope fa-2x text-white"></i>
+          </a>
+          <a href="file/andypkwanResume.docx" data-toggle="tooltip" data-placement="top" title="download resume">
+            <i class="fa-solid fa-download fa-2x text-white"></i>
           </a>
         </div>
       </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/script.js" type="module"></script>
