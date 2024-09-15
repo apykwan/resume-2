@@ -1,3 +1,7 @@
+.profile a {
+  text-decoration: none;
+}
+
 .header::after {
   content: "";
   position: absolute;
@@ -19,7 +23,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
 
@@ -39,6 +43,13 @@
   width: 200px;
 }
 
+#skill-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  height: 100%;
+}
+
 .portrait-shadow {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
 }
@@ -52,25 +63,6 @@
   opacity: 0.8;
 }
 
-.services {
-  background: url('../images/bg.jpg') no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.services::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.services .container {
-  z-index: 10;
-}
 
 @media(max-width: 767px) {
   .header .social i {
