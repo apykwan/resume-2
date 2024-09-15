@@ -44,8 +44,31 @@ function renderSkillList() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', function () {
+async function checkLocation() {
+  const data = await fetch('https://ipapi.co/json/');
+  const location = await data.json();
+
+  console.log(location.country);
+  let phoneNumber = '(857) 234-1527';
+  let myResume = 'file/andypkwanResume.docx';
+  let myAuthorization = 'USA and Canada'
+
+  if(location.country === 'CA') {
+    phoneNumber = '(778) 984-6017';
+    myResume = 'file/andypkwanResume_Van.docx';
+    myAuthorization = 'Canada and USA';
+  } 
+
+  document.querySelectorAll('.my-phone').forEach(function(element) {
+    element.textContent = phoneNumber;
+  });
+  document.querySelector('.my-resume').setAttribute('href', myResume);
+  document.querySelector('.my-authorization').textContent = myAuthorization;
+}
+
+document.addEventListener('DOMContentLoaded', async function () {
   runTypingEffect();
   getCurrentYear();
   renderSkillList();
+  await checkLocation();
 });
