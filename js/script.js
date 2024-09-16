@@ -2,7 +2,7 @@ import { skillList } from './data/skillList.js';
 import { projectList } from './data/projectList.js';
 
 function runTypingEffect() {
-  const text = 'Andy P. Kwan';
+  const text = `I am Andy P. Kwan`;
   const typingElement = document.getElementById('typing-text');
   const typingDelay = 200;
 

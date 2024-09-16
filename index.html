@@ -22,14 +22,15 @@
     <!-- Header -->
     <header class="header vh-100 text-center position-relative">
       <div class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
+        <h5 class="text-primary fs-3 fw-bold text-uppercase">Hello, World.</h5>
         <h1 id="typing-text" class="display-1 fw-bold text-white"></h1>
-        <p class="roles text-white text-uppercase fs-4">
+        <p class="roles text-white text-uppercase fs-4 my-2">
           <span>Full Stack Web Developer |</span>
           <span class="my-phone"></span>
         </p>
         
         <div class="d-flex mt-4">
-          <a href="#about" class="btn btn-outline-primary btn-lg rounded-2 me-4">
+          <a href="#about" class="btn btn-outline-primary btn-lg rounded-2 mb-3 mb-md-0 me-md-4">
             <div class="d-flex">
               <div class="me-3">
                 <i class="fas fa-chevron-down"></i>
@@ -39,12 +40,12 @@
               </div>
             </div>
           </a>
-          
+        
           <a 
             href="file/andypkwanResume.docx" 
-            class="my-resume btn btn-primary btn-lg text-uppercase rounded-2"
-            data-toggle="tooltip" 
-            data-placement="top" 
+            class="my-resume btn btn-primary btn-lg text-uppercase rounded-2 d-none d-md-block"
+            data-bs-toggle="tooltip" 
+            data-bs-placement="top" 
             title="download resume"
           >
             <i class="fa-solid fa-download"></i>
@@ -72,7 +73,16 @@
             <i class="fab fa-github fa-3x text-white"></i>
           </a>
           <a 
-            href="mailto:apykwan@hotmail.com"
+            href="https://www.apkwan.me"
+            target="_blank"
+            data-toggle="tooltip" 
+            data-placement="top" 
+            title="my website"
+          >
+            <i class="fa-solid fa-globe fa-3x text-white"></i>
+          </a>
+          <a 
+            href="mailto:apykwan@hotmail.com" 
             data-toggle="tooltip" 
             data-placement="top" 
             title="write to me"
@@ -92,7 +102,7 @@
         </div>
         <div class="about-content d-flex gap-5 align-items-center h-100">
           <img src="images/apk.jpg" alt="myself" class="about-img img-fluid rounded-circle portrait-shadow">
-          <p class="lead">
+          <p class="lead p-3">
             I have extensive experience in developing and optimizing web applications using React, TypeScript, and Tailwind, with a
             focus on creating reusable components and responsive designs. I am proficient in designing RESTful APIs using Node.js,
             Python, MongoDB, and SQL, and have successfully deployed applications on DigitalOcean and AWS with Docker. <br><br>
@@ -195,7 +205,7 @@
             <i class="fas fa-globe fa-3x text-primary mb-3"></i>
             <h3 class="fs-3">Design</h3>
             <hr class="w-25 mx-auto" />
-            <p class="fs-5">
+            <p class="fs-5 p-3">
               Striving to design mobile-friendly websites that offer a seamless experience, I focus on creating visually appealing,
               highly responsive designs that adapt to any screen size.
             </p>
@@ -205,7 +215,7 @@
             <i class="fas fa-code fa-3x text-primary mb-3"></i>
             <h3 class="fs-3">Development</h3>
             <hr class="w-25 mx-auto" />
-            <p class="fs-5">
+            <p class="fs-5 p-3">
               I build robust and scalable RESTful endpoints to ensure that each API efficiently supports its intended features and
               integrates seamlessly with various technologies.
             </p>
@@ -215,7 +225,7 @@
             <i class="fas fa-shopping-cart fa-3x text-primary mb-3"></i>
             <h3 class="fs-3">Deployment</h3>
             <hr class="w-25 mx-auto" />
-            <p class="fs-5">
+            <p class="fs-5 p-3">
               By utilizing key AWS services such as EC2, S3, and RDS, I manage deployment processes that enhance performance and handle
               varying loads.
             </p>
