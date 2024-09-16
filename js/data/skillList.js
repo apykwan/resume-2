@@ -4,7 +4,7 @@
   { icon: "fab fa-bootstrap", name: "Bootstrap" },
   { icon: "fa-solid fa-wind", name: "Tailwind" },
   { icon: "fab fa-js", name: "JavaScript" },
-  { icon: "fab fa-react", name: "React.JS / Next.JS" },
+  { icon: "fab fa-react", name: "React.JS" },
   { icon: "fa-solid fa-j", name: "JQuery" },
   { icon: "fa-solid fa-flask-vial", name: "Jest" },
   { icon: "fa-solid fa-t", name: "TypeScript" },
