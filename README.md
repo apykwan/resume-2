@@ -9,6 +9,6 @@ A responsive and professional portfolio/resume web application built **entirely 
 - Sections for:
   - **About Me** – brief professional introduction
   - **Skills** – list of technical and soft skills
-  - **Projects / Works** – showcase of previous work with links/screenshots
-  - **Contact** – contact form with email link
+  - **Profolio / Works** – showcase of previous work with links/screenshots
+  - **Service** – what can I do for you
 - Built using **Bootstrap 5** for modern layout and components
